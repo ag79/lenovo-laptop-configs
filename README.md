@@ -45,6 +45,9 @@ Usage - toggle setting on demand (startup setting remains as is):
   * To disable battery conservation: `systemctl start battery-conservation-off`
   * In this scenario the services are mutually exclusive and will stop their counterparts when started.
 
+### lenovo-batteryconservation-*.sh
+
+To turn conservation mode on/off from shell. Use *lenopow* tool instead, link below.
 
 ## 3. Fix touchpad not working
 
@@ -53,7 +56,7 @@ Usage - toggle setting on demand (startup setting remains as is):
 May be needed on Ubuntu 20.10 and earlier (kernel around 5.8). Use `sudo legion-touchpad-fix.sh` or create a systemd service based on it.
 
 
-## Other helpful repos:
+# Other helpful repos:
 
 * A command line tool to toggle battery conservation feature: [https://github.com/schinfo/lenopow](URL)
 * A similar collection, includes AMDGPU Brightness Fix: [https://github.com/antony-jr/lenovo-legion5-15arh05-scripts](URL)
