@@ -13,13 +13,13 @@ Tearing typically happens on the screen connected to Nvidia card (HDMI port on L
 
 Put this in `/etc/X11/xorg.conf.d/` to force composition pipeline and fix screen tearing on the screen connected to Nvidia card.
 
-Source: [https://forums.developer.nvidia.com/t/how-to-save-the-x-server-settings/128896/2](URL)
+Source: [https://forums.developer.nvidia.com/t/how-to-save-the-x-server-settings/128896/2](https://forums.developer.nvidia.com/t/how-to-save-the-x-server-settings/128896/2)
 
 ### nvidia-forcecompositionpipeline.sh
 
 Does the same as the above, but can be used e.g. in desktop environment's startup programs (KDE Plasma: System Settings - Startup and Shutdown - Autostart) or on-demand. No root required.
 
-Source: [https://unix.stackexchange.com/questions/510757/how-to-automatically-force-full-composition-pipeline-for-nvidia-gpu-driver](URL)
+Source: [https://unix.stackexchange.com/questions/510757/how-to-automatically-force-full-composition-pipeline-for-nvidia-gpu-driver](https://unix.stackexchange.com/questions/510757/how-to-automatically-force-full-composition-pipeline-for-nvidia-gpu-driver)
 
 
 ## 2. Use battery conservation feature
