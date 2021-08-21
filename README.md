@@ -55,9 +55,17 @@ To turn conservation mode on/off from shell. Use *lenopow* tool instead, link be
 
 May be needed on Ubuntu 20.10 and earlier (kernel around 5.8). Use `sudo legion-touchpad-fix.sh` or create a systemd service based on it.
 
+## 4. Fix wrong DPI with Nvidia
+
+E.g. screen elements too big: happens in certain multi-screen configurations when only Nvidia card is used ("discrete" selected in BIOS).
+
+One option is to Force font DPI in KDE Settings.
+
+Another option is to uncomment and edit respective setting in `20-nvidia-antitear.conf` provided here. 
+Source: [https://forums.developer.nvidia.com/t/edid-issue/44370](https://forums.developer.nvidia.com/t/edid-issue/44370)
 
 # Other helpful repos:
 
-* A command line tool to toggle battery conservation feature: [https://github.com/schinfo/lenopow](URL)
-* A similar collection, includes AMDGPU Brightness Fix: [https://github.com/antony-jr/lenovo-legion5-15arh05-scripts](URL)
+* A command line tool to toggle battery conservation feature: [https://github.com/schinfo/lenopow](https://github.com/schinfo/lenopow)
+* A similar collection, includes AMDGPU Brightness Fix: [https://github.com/antony-jr/lenovo-legion5-15arh05-scripts](https://github.com/antony-jr/lenovo-legion5-15arh05-scripts)
 
